@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +19,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/code-snippet', function ()
-{
-    return 'START';
+Route::get('/code-snippet', function (){
+    return Inertia::render('CodeSnippet');
 });
