@@ -22,3 +22,9 @@ Route::get('/', function () {
 Route::get('/code-snippet', function (){
     return Inertia::render('CodeSnippet');
 });
+
+
+Route::get('/socket-test', function ()
+{
+    return view('home');
+});
