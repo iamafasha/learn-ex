@@ -5,7 +5,13 @@
     <title>Code Snippet</title>
     <meta name="description" content="Your page description">
     </Head>
-    <Editor value="console.log('HelloWorld')"></Editor>
+    <Editor
+        :value="`
+    console.log('HelloWorld')
+    console.log('HelloWorld')
+    console.log('HelloWorld')
+    `">
+    </Editor>
 </template>
 
 
